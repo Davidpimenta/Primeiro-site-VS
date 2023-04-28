@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: rgb(246, 238, 227);
+    margin: 0%;
+
+}
+header{
+    background-image: linear-gradient(to bottom,#47a46f,#227847,#0a2215 );
+    margin: 0%;
+    height: 150px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.531);
+}
+
+.degrade > h1{
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 20px;    
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.degrade > p{
+    text-align: center;
+    width: 450px;
+    height: 60px;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+    
+}
+
+.titulo{
+    margin-top: 0%;
+    font-family: 'idroid';
+    font-size: 2em;
+    padding-top: 20px;
+    color: #17964e;
+
+}
+
+span{
+    transition-duration: 0.5s;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #acdfc3;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+
+}
+
+span:hover{
+    color: #0a2215;
+    border-radius: 5px;
+    background-color: #459b6c;
+}
+
+.texto{
+    text-indent: 50px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.imp:hover{
+    background-color: white;
+}
+a:hover{
+    background-color: transparent;
+
+}
+
+
+.imp{
+    color: #459b6c;
+    margin: 0%;
+    padding-left: 1px;
+    padding-right: 0px;
+    font-weight: bolder;
+}
+
+.titulo2{
+    padding-left: 10px;
+    background-image: linear-gradient(to right,#00f90c8a,white);
+    color: #1e653f;
+    font-family: 'idroid';
+}
+a{
+    text-decoration: none;
+    color: #459b6c;
+    padding-left: 1px;
+    padding-right: 0px;
+    font-weight: bolder;
+}
+
+
+.rob{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.robp{
+    padding-left: 150px;
+}
+.irinap{
+    padding-left: 150px;
+}
+.irina{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.bug{
+    margin: auto;
+    display: block;
+}
+
+.video{
+    border: 30px solid #0b6435
+    
+}
+
+.textof{
+    margin-bottom: 0%;
+    text-indent: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+
+}
+
+.sec{
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    max-width: 1040px;
+    min-width: 300px;
+
+}
+
+.aprender{
+    background-color: #15fd0045;
+    border-radius: 20px;  
+    padding-bottom: 20px;
+}
+
+.final{
+    background-color: white;
+    padding-top: 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 1px;   
+    border-radius: 0px 0px 15px 15px;
+}
+
+.aprender > p{
+    font-size: 1.2em;
+    text-align: justify;
+    padding-left: 20px;
+    
+}
+
+nav{ 
+    border-radius: 20px 20px 0px 0px;
+    height: 40px;
+    background-color: #009e4a;
+}
+
+.superior{
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.2em;
+
+}
+
+.lista{
+    padding-left: 10px;
+    width: 230px;
+    display: inline-block;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ol{
+    list-style-image: url('CLIPA.png');
+    margin-top: 0%;
+}
+
+.lista2{
+    padding-left: 10px;
+    width: 200px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+text{
+    color: white;
+}
+
+.gua{
+    
+    padding-top: 10px;
+    height: 25px;
+    text-align: center;
+    background-color: #0b6435;
+}
+
+.nome{
+    margin: 0%;
+    color: white;
+    
+}
+
